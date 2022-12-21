@@ -30,6 +30,7 @@ const Home = () => {
                 <td>
                   <Link
                     className="btn btn-small btn-primary me-2"
+                    to={'/edit'}
                   >
                     Edit
                   </Link>

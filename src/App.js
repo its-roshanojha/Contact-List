@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AddContact from './components/AddContact';
+import EditContact from './components/EditContact';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home/>}></Route>
+          </Routes>
+
+          <Routes>
+            <Route path="/edit" element={<EditContact/>}></Route>
           </Routes>
 
       </BrowserRouter>
